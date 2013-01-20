@@ -21,6 +21,7 @@ setup(name='js.jquery_file_upload',
       install_requires=[
           'fanstatic',
           'setuptools',
+          # TODO add dependency on js.jqueryui once it packs something >= 1.9
           'js.jquery',
           'js.jquery_iframe_transport',
       ],
